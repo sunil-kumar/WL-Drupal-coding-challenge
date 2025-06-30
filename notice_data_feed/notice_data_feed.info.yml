@@ -1,0 +1,7 @@
+name: 'Notice data feed list'
+type: module
+package: custom
+core_version_requirement: ^10 || ^11
+description: 'Displays data fetched from The Gazette REST API.'
+dependencies:
+  - drupal:system

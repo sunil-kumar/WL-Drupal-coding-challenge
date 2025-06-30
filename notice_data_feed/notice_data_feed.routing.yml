@@ -1,0 +1,9 @@
+notice_data_feed.data:
+    path: '/gazette-notice-data-feed'
+    defaults:
+        _title: 'Gazette Notices Data Feed'
+        _controller: '\Drupal\notice_data_feed\Controller\NoticeController::feed'
+    requirements:
+        _permission: 'access content'
+    options:
+        no_cache: 'TRUE'
