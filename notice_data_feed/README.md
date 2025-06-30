@@ -13,6 +13,12 @@ This is a custom Drupal 10 module developed as part of a coding challenge. The m
 - Uses Drupal best practices for custom module development.
 - Includes a custom controller to display the data.
 
+## Screenshot
+
+Below is a preview of the Gazette Notices listing page:
+
+![Screenshot of Gazette Notices Page](images/screenshot.png)
+
 ## Requirements
 
 - Drupal 10.x
@@ -25,3 +31,25 @@ This is a custom Drupal 10 module developed as part of a coding challenge. The m
    ```bash
    cd web/modules/custom
    git clone [MODULE_REPO_URL] gazette_notices
+
+1. Clone or copy this module into the `modules/custom` directory of your Drupal installation:
+   drush en gazette_notices
+
+
+
+
+
+ ## Configuration
+ No additional configuration is needed. The API endpoint is currently hardcoded in the controller for demonstration purposes.
+
+ ## File Structure
+
+ notice_data_feed/
+├── notice_data_feed.info.yml
+├── notice_data_feed.routing.yml
+├── src/
+│   └── Controller/
+│       └── NoticeController.php
+├── images/
+│   └── screenshot.png
+└── README.md
